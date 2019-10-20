@@ -1,0 +1,23 @@
+.paragraph1 {
+    border: 4px dotted;
+}
+.paragraph2 {
+    color: #FF0000;
+}
+.paragraph3 {
+    margin: 20px; 
+    background-color: #ADD8E6;
+}
+.content {
+    padding: 10px;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+}
+div:hover {
+    width: 300px;
+}
